@@ -42,7 +42,7 @@ public class binary_heap {
             heapifyUp(heapSize-1);
 
     }
-    //delete an element at given position
+ 
     public int delete(int x){
         if(isEmpty())
             throw new NoSuchElementException("Heap is empty, no element to delete");
