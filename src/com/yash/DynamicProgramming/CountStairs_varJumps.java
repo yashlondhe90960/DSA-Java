@@ -10,6 +10,8 @@ public class CountStairs_varJumps {
         int[] arr = new int[n];
         for(int i=0;i<n;i++){
             arr[i]=scn.nextInt();
+            
+            
 
         }
         int[] dp = new int[n+1];
